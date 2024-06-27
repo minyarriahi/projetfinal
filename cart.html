@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body> 
+    <header>
+        <a  href="#" id="aa" ><img id="logo" src="./assets/logo2.png" alt=""></a>
+        <ul class="navemenu">
+            <li><a href="page1.html">home</a></li>
+            <li><a href="shope.html">shop</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="user.html"><i class='bx bx-user'></i></a>
+            <a  class="active" href="cart.html"><i class='bx bx-cart' ></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <section id="cart" class="section-p1">
+        <table width="100%" >
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="card">
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./assets/i8.png" alt=""></td>
+                    <td>cartoon Astronaut sweater</td>
+                    <td class="price">$62</td> 
+                    <td><input class="article" type="number" value="1"></td>
+                    <td>$62</td>
+                </tr>
+                <tr class="card">
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./assets/i14.png" alt=""></td>
+                    <td>cartoon Astronaut sweater</td>
+                    <td class="price">$70</td> 
+                    <td><input class="article" type="number" value="1"></td>
+                    <td>$70</td>
+                </tr>
+                <tr class="card">
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./assets/i13.png" alt=""></td>
+                    <td>Coat</td>
+                    <td class="price">$110</td> 
+                    <td><input class="article" type="number" value="1"></td>
+                    <td>$110</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div >
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td>$142</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td id="Subtotal">$142</td>
+                </tr>
+            </table>
+            <button class="normal">Oroceed to checkout</button>
+        </div>
+    </section>
+    <footer class="section-p1 section-m1">
+        <div class="col">
+            <img src="./assets/logo2.png" alt="" class="ii">
+            <h4>contact</h4>
+            <p><strong>Address:181Mercer street,nNew York,ny10012,united states</strong></p>
+            <p><strong>Phone:+216 96977910</strong></p>
+            <p><strong>Hours</strong> 10:00-18:00.Mon-Sat</p>
+        <div class="follow">
+            <h4>follow us</h4>
+            <div class="icon">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+        </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">Dellivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Coditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In </a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install APP</h4>
+            <p>From App Store or Google Play</p>
+            <div class="rows">
+                <img  class="ww" src="./assets/play.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js">
+
+    </script>
+    
+</body>
+</html>
